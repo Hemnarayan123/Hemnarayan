@@ -1,4 +1,4 @@
-import photo from '../../src/assets/images/edit.jpeg';
+import photo from '../../src/assets/images/edit.png';
 
 const Profile = {
     name: 'Hemnarayan',
