@@ -1,0 +1,70 @@
+/* SkillsCarousel.css */
+.skills-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.skills-content {
+  gap: 10px;
+  display: flex;
+  animation: scroll 17s linear infinite;
+}
+
+.skill-box {
+  word-break: break-word; /* Metin taşmasını önlemek için */
+  width: 100px;
+  height: 100px; /* Yüksekliği arttırdık */
+  margin: 10px;
+  background-color: #262831;
+  border-radius: 15px;
+  display: flex;
+  padding: 7px 10px 7px 10px;
+  flex-direction: column; /* Dikey yerleşim için */
+  justify-content: start;
+  align-items: center;
+  text-align: center; /* Metni ortalar */
+  transition: transform 0.3s ease-in-out; /* Hover efekti için */
+  overflow-wrap: break-word; /* Ekledik */
+  word-wrap: break-word; /* Ekledik */
+  white-space: normal; /* Ekledik */
+}
+
+.skill-box img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  margin-bottom: 5px; 
+}
+
+.skill-box:hover {
+  transform: scale(1.1); 
+}
+
+.skill-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.skills-container:hover .skills-content {
+  animation-play-state: paused;
+}
+
+.skill-box:hover,
+.skill-box:active {
+  transform: scale(1.2); 
+  border: 3px solid var(--vegas-gold); 
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
