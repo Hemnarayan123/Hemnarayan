@@ -1,4 +1,4 @@
-import photo from '../../assets/images/file.png';
+import photo from '../../src/assets/images/logo.png';
 
 
 const Profile = {
