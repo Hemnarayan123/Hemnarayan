@@ -1,5 +1,5 @@
-import school from '../assets/career/school.png';
-import college from '../assets/career/college.png';
+import school from '../../src/assets/career/school.png';
+import college from '../../src/assets/career/college.png';
 
 const education = [
     {

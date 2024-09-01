@@ -1,4 +1,4 @@
-
+import profilee from '../../src/assets/career/edit.png'
 
 
 
@@ -6,7 +6,7 @@ const Profile = {
     name: 'Hemnarayan',
     surname: 'Yadav',
     title: 'MERN Stack Developer',
-    image: '/edit.png',
+    image: profilee,
 
 }
 

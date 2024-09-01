@@ -1,5 +1,5 @@
 import chatapp from '../assets/images/projects/CNATAPP.png';
-import ecommerce from '../assets/images/projects/ECOMMERCEjpg.jpg';
+import ecommerce from '../assets/images/projects/ecom.jpg';
 import dreamCar from '../assets/images/projects/dreamCar.png';
 
 const project = [
